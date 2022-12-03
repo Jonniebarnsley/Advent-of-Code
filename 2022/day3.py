@@ -1,7 +1,7 @@
 with open('/Users/jonniebarnsley/Documents/Python/Advent of code/2022/day3.txt', 'r') as file:
     input = file.read()
 
-rucksacks = input.split('\n')
+rucksacks = input.splitlines()
 
 priority = '_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 

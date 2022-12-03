@@ -1,7 +1,7 @@
 with open('/Users/jonniebarnsley/Documents/Python/Advent of code/2022/day2.txt', 'r') as file:
     input = file.read()
 
-rounds = [line.split() for line in input.split('\n')]
+rounds = [line.split() for line in input.splitlines()]
 
 def score(round):
     total = 0

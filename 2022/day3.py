@@ -1,10 +1,3 @@
-input = '''vJrwpWtwJgWrhcsFMMfFFhFp
-jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
-PmmdzqPrVvPwwTWBwg
-wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
-ttgJtRGJQctTZtZT
-CrZsJsPPZsGzwwsLwLmpwMDw'''
-
 with open('/Users/jonniebarnsley/Documents/Python/Advent of code/2022/day3.txt', 'r') as file:
     input = file.read()
 

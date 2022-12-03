@@ -1,7 +1,3 @@
-input = '''A Y
-B X
-C Z'''
-
 with open('/Users/jonniebarnsley/Documents/Python/Advent of code/2022/day2.txt', 'r') as file:
     input = file.read()
 

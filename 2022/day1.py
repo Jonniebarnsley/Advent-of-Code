@@ -5,7 +5,7 @@ top3 = [0, 0, 0]
 
 elves = input.split('\n\n')
 for elf in elves:
-    snacks = [int(x) for x in elf.split('\n')]
+    snacks = [int(x) for x in elf.splitlines()]
     calories = sum(snacks)
     if calories >= top3[2]:
         top3.pop()

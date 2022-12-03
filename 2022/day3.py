@@ -19,7 +19,7 @@ def p1(rucksacks):
 
 def p2(rucksacks):
     ans = 0
-    for n in range(0, len(rucksacks), 3):
+    for n in range(0, len(rucksacks)-3, 3):
         elf1 = rucksacks[n]
         elf2 = rucksacks[n+1]
         elf3 = rucksacks[n+2]

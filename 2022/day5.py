@@ -13,7 +13,7 @@ for col in range(9):
     for line in reversed(diagram[:-1]):
         box = line[4*col+1]
         if box != ' ':
-            initial[col].append(line[4*col+1])
+            initial[col].append(box)
         else:
             pass
 

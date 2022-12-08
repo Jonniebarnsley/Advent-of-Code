@@ -55,7 +55,6 @@ p1 = 0
 dir_sizes = []
 def do_sizes(folder):
     global p1
-    global p2
     for child in folder.children:
         if isinstance(child, file):
             folder.size += child.size
